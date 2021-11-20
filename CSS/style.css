@@ -1,3 +1,30 @@
 body {
     background-color: white;
 }
+nav {
+    display:flex;
+    justify-content:flex-end;
+}
+.navItem {
+    color: black;
+    padding: 1%;
+    text-decoration: none;
+}
+section {
+    display:flex;
+    justify-content: space-around;
+}
+button {
+    background-color: none;
+    border-style: none;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+.h5 {
+     float: left;
+    }
